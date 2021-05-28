@@ -1,6 +1,9 @@
+# lp3thw p.141
+
 for i in (1, 2, 3, 4,):
+  print("\ni =", end=' ')
   if 2 < i:
     continue
-  print("i =", i)
+  print(i, end='')
 
-print("i after the for loop =", i)
+print("\ni after the for loop =", i)
